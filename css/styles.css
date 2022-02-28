@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+p {
+  font-weight: 400;
+}
+
+header {
+  background-color: #264653;
+  padding: 15px 25px;
+}
+.honda-cbr {
+  font-size: 48px !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 400;
+  font-weight: 500;
+}
+
+/* banner section */
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #264653;
+}
+
+@media (max-width: 768px) {
+  #banner {
+    height: auto;
+  }
+}
+.purchase-btn {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #e76f51;
+  padding: 5px 22px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 7px;
+}
+
+#featured {
+  margin-top: 150px;
+}
+
+.featured-title {
+  font-size: 48px;
+}
+
+.image-filter {
+  filter: grayscale(100%);
+}
+
+/* latest news section */
+
+#latest-news {
+  margin-top: 150px;
+}
+
+.read-more-btn {
+  appearance: 0;
+  border: 0;
+  outline: 0;
+  padding: 5px 25px;
+  color: white;
+  font-size: 16px;
+  background-color: #e76f51;
+  border-radius: 5px;
+}
+
+.outline {
+  appearance: 0;
+  border: 0;
+  outline: 0;
+  padding: 5px 25px;
+  color: white;
+  font-size: 16px;
+  border: 2px solid #e76f51 !important;
+  border-radius: 5px;
+  color: black;
+}
+
+/* happy-clients section */
+
+#happy-clients {
+  margin-top: 150px;
+}
+
+.high-light {
+  color: #e76f51;
+}
+
+.client-says-img {
+  height: 149px;
+  width: 149px;
+}
+
+#frequently-ask-question {
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 150px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.footer-link {
+  display: flex;
+  list-style: none;
+}
+.footer-link > li {
+  margin: 7px;
+  font-weight: 300;
+}
